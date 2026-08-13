@@ -1,0 +1,11 @@
+Table I  --  2000 trials, seed 20260805, theta* = 0.300
+
+Rule                              rare kept  adv kept  heterog. signalled    |err|
+----------------------------------------------------------------------------------
+Mean (FedAvg)                        100.0%    100.0%                0.0%    0.124
+Trimmed mean                           0.0%     10.9%                0.0%    0.261
+Krum                                   0.0%      0.0%                0.0%    0.297
+Inverse-variance + chi^2 gate          0.4%      0.0%                0.5%    0.300
+Stratified by declared c_k           100.0%      0.0%              100.0%    0.053
+
+across-strata Birge ratio: median 6.0 [4.3, 7.7]
